@@ -61,7 +61,6 @@ git (Version control)
 Installation
 Clone the repository:
 
-Bash
 
 git clone https://github.com/your-username/django-blogspot.git
 cd django-blogspot
@@ -69,34 +68,33 @@ Create and activate a virtual environment:
 
 On macOS and Linux:
 
-Bash
 
 python3 -m venv venv
 source venv/bin/activate
 On Windows:
 
-Bash
+
 
 python -m venv venv
 venv\Scripts\activate
 Install the required packages:
 
-Bash
+
 
 pip install -r requirements.txt
 Apply database migrations:
 
-Bash
+
 
 python manage.py migrate
 Create a superuser to access the admin panel (optional):
 
-Bash
+
 
 python manage.py createsuperuser
 Run the development server:
 
-Bash
+
 
 python manage.py runserver
 The application will be running and available at http://127.0.0.1:8000/.
