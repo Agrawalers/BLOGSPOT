@@ -1,0 +1,33 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'post.css' %}">
+</head>
+
+<body>
+
+  <div class="header">
+    <h2>Blogs</h2>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card" style="text-decoration: none; color: black;">
+
+        <h2>{{posts.title}}</h2>
+        <h5>{{posts.created}}</h5>
+        <p style="text-align: left; line-height: 2;">{{posts.body}}</p>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

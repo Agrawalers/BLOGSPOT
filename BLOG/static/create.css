@@ -1,0 +1,12 @@
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+
+    
+    .custom-focus:focus {
+      outline: none;
+      border-color: #a78bfa;
+      
+      box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.3);
+    }
